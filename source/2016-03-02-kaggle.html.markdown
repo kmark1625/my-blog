@@ -1,7 +1,0 @@
----
-title: Working on Kaggle Projects
-date: 2016-03-02
-tags: example
----
-
-Tips for working on Kaggle projects.
