@@ -1,0 +1,13 @@
+- name: Fantasy Wars
+  description: Fantasy Wars is a turn-based strategy game set in a fantasy world. Players can select one of three races and battle on four different maps against another player or a computer opponent. I worked with designing the overall gameplay structure, implementing key gameplay features as well as the AI for the computer player. I also led the code-review process and the version control workflow (git/Github). Fantasy Wars was built with Javascript and the Phaser framework.
+  image: fantasy_wars.png
+  url: https://kmark1625.github.io/games/fantasywars
+- name: Hearthstone Meta Tracker
+  description: A site that allows the user to find the most likely decks in the current meta that they might be facing.
+  image: hearthstone.png
+  url: https://secret-taiga-95538.herokuapp.com/
+- name: CriticL
+  description: A website for movies and reviews. This site features the ability to search and review movies by categories or by name. You can favorite a movie in order to add it to your profile for others to view. The site also features a reviewer leaderboard where top reviewers can be recognized for leaving good reviews for movies.
+  image: criticl.png
+  url: https://stormy-taiga-34335.herokuapp.com/
+
