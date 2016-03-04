@@ -1,14 +1,18 @@
 ---
 title: My Projects
 ---
-<% data.projects.each do |project| %>
-  <section class="project-preview">
-    <div class="container">
-      <img src="/images/<%= project.image %>">
-    </div>
-    <div class="description">
-      <p><a href="<%= project.url %>"><%= project.name %></a></p>
-      <p><%= project.description %></p>
-    </div>
-  </section>
-<% end %>
+<ul>
+  <% data.projects.each do |project| %>
+    <li>
+      <section class="project-preview">
+        <div class="image">
+          <p><img src="/images/<%= project.image %>"></p>
+        </div>
+        <div class="description">
+          <h1><a href="<%=project.url%>"><%= project.name %></a></h1>
+          <p><%= project.description %></p>
+        </div>
+      </section>
+    </li>
+  <% end %>
+</ul>
