@@ -1,14 +1,23 @@
 .project-preview {
+  padding-top: 1em;
   padding-bottom: 1em;
+  border-bottom: 1px solid $base-border-color;
+  @include clearfix;
 
-  img {
-    width: 30%;
-    height: 30%;
-    padding-left: 1em;
+  div.image {
+    @include span-columns(4 of 12);
   }
 
-  .description {
-    float: right;
-    padding-right: 2em;
+  div.description {
+    @include span-columns(8 of 12);
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: .8em;
+    font-style: italic;
   }
 }
