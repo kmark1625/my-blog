@@ -1,31 +1,18 @@
 ---
-pageable: true
-per_page: 10
+title: My Projects
 ---
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
-
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
-
 <ul>
-  <% page_articles.each_with_index do |article, i| %>
+  <% data.projects.each do |project| %>
     <li>
-      <article class="preview">
-        <h3><%= link_to article.title, article %></h3>
-        <p><%= article.summary %></p>
-        <h5><%= article.date.strftime('%b %e %Y') %></h5>
-      </article>
+      <section class="project-preview">
+        <div class="image">
+          <p><img src="/images/<%= project.image %>"></p>
+        </div>
+        <div class="description">
+          <h1><a href="<%=project.url%>"><%= project.name %></a></h1>
+          <p><%= project.description %></p>
+        </div>
+      </section>
     </li>
   <% end %>
 </ul>
-
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
-<% end %>
-
-<%= partial "partials/aside" %>
