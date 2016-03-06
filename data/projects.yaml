@@ -9,9 +9,9 @@
 - name: CriticL
   description: A website for movies and reviews. This site features the ability to search and review movies by categories or by name. You can favorite a movie in order to add it to your profile for others to view. The site also features a reviewer leaderboard where top reviewers can be recognized for leaving good reviews for movies.
   image: criticl.png
-  url: ancient-fortress-41792.herokuapp.com
+  url: https://ancient-fortress-41792.herokuapp.com
 - name: Hearthstone Meta Tracker
   description: This site is based on the game Hearthstone. It allows you to browse the most popular decks currently being played. You will be able to type in a couple of cards that you see an opponent play. You will then be presented with possible decks that you may be facing and will be able to narrow them down further as more cards are played. You can also browse through all the current cards and build new decks to add to your collection.
   image: hearthstone.png
-  url: shielded-temple-59436.herokuapp.com
+  url: https://shielded-temple-59436.herokuapp.com
 
