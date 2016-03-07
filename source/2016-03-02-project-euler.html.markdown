@@ -4,13 +4,7 @@ date: 2016-03-02
 tags: project euler
 ---
 
-I set out with the goal of solving as many problems of Project Euler as I could in 3 months. Below is a set of lessons that I learned along the way from each set of problems. I decided to approach the problems sequentially and would not move on from a given set until all problems in that set were completed. I had to learn about numerous topics in coding and mathematics in order to complete the challenge. I hope this article will be helpful for a reader who is seeking to attempt a similar challenge for themselves or just a reader who is curious what the journey is like.
-
-## Problems 1-25
-
-## Math
-
-There are some fundamental mathematical concepts that are required in order to solve the first set of problems. Prime numbers and factors occur over and over again throughout the first set of problems. Other math concepts that come up are usually explained in enough detail in the problem statement to get by.
+I set out with the goal of solving as many problems of Project Euler as I could in 3 months. Below is a set of lessons that I learned along the way from each set of problems. I decided to approach the problems sequentially and would not move on from a given set until all problems in that set were completed. I had to learn about numerous topics in coding and mathematics in order to complete the challenge. I hope this article will be helpful for a reader who is seeking to attempt a similar challenge for themselves or just a reader who is curious what the journey is like. Below is a list of concepts that I found very useful for the first set of problems.
 
 ### Prime Numbers
 
@@ -19,10 +13,6 @@ Prime numbers occur over and over again throughout the first set of problems. It
 ### Factors
 
 Determining factors of a number is essential. Two common ideas that come up are greatest common factor and least common factor. It will be useful to be able to calculate these two quantities and to make use of them.
-
-## Programming
-
-There are some fundamental programming concepts that are helpful to solving the first set of problems.
 
 ### Test Driven Development
 
