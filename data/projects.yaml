@@ -1,3 +1,7 @@
+- name: Exit - NGA Expedition Hackathon
+  description: Exit is a mobile-web app for directing crowds during the event of a natural disaster. The app calculates a route based on traffic patterns and other users of the application. Based on other user data, the app can help you plan a route out of a danger zone and to safety effectively and efficiently. The app was built during the National Geospatial Agency's Hackathon in Chicago and took the 1st place prize - $4000 and a trip to Washington D.C.
+  image: exit.png
+  url: https://github.com/kmark1625/nga
 - name: Fantasy Wars
   description: Fantasy Wars is a turn-based strategy game set in a fantasy world. Players can select one of three races and battle on four different maps against another player or a computer opponent. I worked with designing the overall gameplay structure, implementing key gameplay features as well as the AI for the computer player. I also led the code-review process and the version control workflow (git/Github). Fantasy Wars was built with Javascript and the Phaser framework.
   image: fantasy_wars.png
